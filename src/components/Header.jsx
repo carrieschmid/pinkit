@@ -25,7 +25,7 @@ function Header() {
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link style={navTextStyle} to='PostList'>PostList</Link></li>
             <li><Link style={navTextStyle} to='NewPost'>NewPost</Link></li>
-            {/* <li><Link style={navTextStyle} to='Create'>Create</Link></li> */}
+            <li><Link style={navTextStyle} to='/'>Home</Link></li>
           </ul>
         </div>
       </nav>
